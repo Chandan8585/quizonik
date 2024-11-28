@@ -1,0 +1,10 @@
+.result-bar{
+    height: 60%;
+    width:40%;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--accent-color);
+    padding: 12px;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,97 @@
+.qna-container {
+  height: 60%;
+  width: 40%;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--accent-color);
+  padding: 12px;
+  font-size: 1.4rem;
+}
+.questions-bar {
+  text-align: center;
+}
+
+.option {
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--text-color-primary);
+  margin: 5px;
+  padding: 5px;
+  color: black;
+}
+
+.option:hover {
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--secondary-color);
+  margin: 5px;
+  padding: 5px;
+  color: var(--text-color-primary);
+}
+
+.ques-quit {
+  background-color: var(--text-color-primary);
+  color: black;
+  width: 30%;
+}
+
+.ques-quit:hover {
+  background-color: red;
+  color: var(--text-color-primary);
+  width: 30%;
+}
+
+.ques-next {
+  background-color: var(--text-color-primary);
+  color: black;
+  width: 30%;
+}
+
+.ques-next:hover {
+  background-color: var(--righ-option-color);
+  color: var(--text-color-primary);
+  width: 30%;
+}
+
+.wrong {
+  background-color: red;
+  color: var(--text-color-primary);
+}
+
+.right {
+  background-color: var(--righ-option-color);
+  color: var(--text-color-primary);
+}
+.watcher {
+  position: relative;
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.watcher::after,
+.watcher::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  background-image: radial-gradient(circle 10px, #0d161b 100%, transparent 0);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  animation: eyeMove 6s infinite;
+}
+@keyframes eyeMove {
+  0%,
+  10% {
+    background-position: 0px 0px;
+  }
+  13%,
+  90% {
+    background-position: 0px 15px;
+  }
+  93%,
+  100% {
+    background-position: 0px 0px;
+  }
+}

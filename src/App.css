@@ -1,0 +1,69 @@
+@import url(./components/navbar/navbar.css);
+@import url(./components/QuizCard/quizcard.css);
+@import url(./pages/home/home.css);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --bg-color: #352e349d;
+  --primary-color : #171838;
+  --secondary-color: #746aca;
+  --accent-color: #1a1a30;
+  --text-color-primary: #f8f7f8;
+  --righ-option-color:#209e4e;
+  --wrong-option-color: red;
+}
+
+.my-text{
+  color: var(--text-color-primary);
+}
+body{
+  background-color: var(--bg-color);
+ 
+
+}
+
+.d-flex{
+  display: flex;
+}
+.d-grid{
+  display: grid;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-space-between{
+  justify-content: space-between;
+}
+.direction-row{
+  flex-direction: row;
+}
+
+.direction-col{
+  flex-direction: column;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.gap-s{
+  gap:1rem
+}
+
+.gap-m{
+  gap:1.5rem
+}
+.gap-l{
+  gap:2rem
+}
+
+
+
+
+
+

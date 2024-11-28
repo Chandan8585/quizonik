@@ -1,0 +1,28 @@
+
+
+
+
+.quiz-container {
+    height: 35rem;
+    width: 32%;
+    background-color: var(--accent-color);
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .quiz-play-now-btn {
+    background-color: rgba(255, 255, 255, 0.822);
+  }
+  .quiz-img-box {
+    height: 60%;
+    width: 100%;
+  }
+  .quiz-img {
+    height: 100%;
+    width: 100%;
+  }
+  .quiz-play-now-btn:hover {
+    background-color: var(--green-badge-color);
+    color: var(--text-color-primary);
+  }
+  

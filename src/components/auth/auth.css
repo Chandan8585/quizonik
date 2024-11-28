@@ -1,0 +1,25 @@
+.auth-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22rem;
+  background-color: var(--accent-color);
+  margin: 5rem;
+}
+
+.auth-login-btn {
+  margin: 2rem;
+}
+.ml-s {
+  margin: 1px;
+}
+.ml-l {
+  margin: 4px;
+}
+
+.test-btn,.auth-login-btn{
+    border-radius:5px;
+    background-color: whitesmoke;
+    border: 1px solid var(--accent-color);
+    padding: 2px;
+}
